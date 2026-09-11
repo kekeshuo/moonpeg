@@ -10,6 +10,7 @@ pub(all) enum Outcome {
 pub(all) struct SearchReport {
   outcome : Outcome
   visited : Int
+  cache_hits : Int
 } derive(Debug, Eq)
 
 ///|
@@ -18,12 +19,19 @@ priv struct SearchState {
   budget : Int
   path : Array[Int]
   goal : Goal
+  dead : Map[UInt64, Bool]
+  memoize : Bool
+  mut cache_hits : Int
 }
 
 ///|
 fn dfs(board : Board, pos : Position, state : SearchState) -> Outcome {
   if state.goal.matches(pos) {
     return Solved(state.path.copy())
+  }
+  if state.memoize && state.dead.contains(pos.bits) {
+    state.cache_hits = state.cache_hits + 1
+    return Unsolvable
   }
   if state.visited >= state.budget {
     return Exhausted
@@ -41,6 +49,9 @@ fn dfs(board : Board, pos : Position, state : SearchState) -> Outcome {
       }
     }
   }
+  if state.memoize {
+    state.dead.set(pos.bits, true)
+  }
   Unsolvable
 }
 
@@ -53,13 +64,22 @@ pub fn Board::solve(
   start : Position,
   goal : Goal,
   budget : Int,
+  memoize? : Bool = true,
 ) -> SearchReport raise PegError {
   self.validate(start)
   self.validate_goal(goal)
   if budget < 0 || budget > 1000000 {
     raise InvalidBudget
   }
-  let state = { visited: 0, budget, path: [], goal }
+  let state = {
+    visited: 0,
+    budget,
+    path: [],
+    goal,
+    dead: Map([]),
+    memoize,
+    cache_hits: 0,
+  }
   let outcome = dfs(self, start, state)
-  { outcome, visited: state.visited }
+  { outcome, visited: state.visited, cache_hits: state.cache_hits }
 }
