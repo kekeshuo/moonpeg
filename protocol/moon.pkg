@@ -1,0 +1,4 @@
+import {
+  "kekeshuo/moonpeg" @peg,
+  "moonbitlang/core/json",
+}
