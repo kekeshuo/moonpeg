@@ -90,6 +90,12 @@ pub fn parse_board(
   if text.length() == 0 || text.length() > 200 {
     raise InvalidBoard("size")
   }
+  // Only CRLF pairs are line endings; never silently discard stray CR bytes.
+  for i = 0; i < text.length(); i = i + 1 {
+    if text[i] == '\r' && (i + 1 >= text.length() || text[i + 1] != '\n') {
+      raise InvalidBoard("line ending")
+    }
+  }
   let rows = text
     .split("\n")
     .map(s => s.to_owned().trim_end(chars="\r").to_owned())

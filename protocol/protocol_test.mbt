@@ -101,3 +101,45 @@ test "replay and reverse generation return checkable board strings" {
     _ => fail("generate")
   }
 }
+
+///|
+test "request resource and numeric boundaries reject before work" {
+  let too_large = StringBuilder::new()
+  for i = 0; i < 16385; i = i + 1 {
+    too_large.write_string(" ")
+  }
+  let deep = "[[[[[[[[[[[[[[[[[0]]]]]]]]]]]]]]]]]"
+  for
+    input in [
+      too_large.to_string(),
+      deep,
+      (
+        #|{"version":1,"command":"replay","board":"oo.","moves":[0.5]}
+      ),
+      (
+        #|{"version":1,"command":"solve","board":"oo.","budget":1e100}
+      ),
+      (
+        #|{"version":1,"command":"solve","board":"oo.","budget":1000001}
+      ),
+      (
+        #|{"version":1,"command":"analyze","board":"oo.\r"}
+      ),
+    ] {
+    match @json.parse(handle(input)) {
+      { "status": String("error"), .. } => ()
+      _ => fail("boundary")
+    }
+  }
+  match
+    @json.parse(
+      handle(
+        (
+          #|{"version":1,"command":"analyze","board":"[[[[[[[[[[[[[[[[[[[[["}
+        ),
+      ),
+    ) {
+    { "code": String("board"), .. } => ()
+    _ => fail("brackets inside strings are not nesting")
+  }
+}
