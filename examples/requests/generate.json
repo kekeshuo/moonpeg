@@ -1,0 +1,8 @@
+{
+  "version": 1,
+  "command": "generate",
+  "board": ".....",
+  "goal": "..o..",
+  "depth": 3,
+  "seed": 42
+}

@@ -1,0 +1,6 @@
+{
+  "version": 1,
+  "command": "solve",
+  "board": "o.o",
+  "budget": 100
+}

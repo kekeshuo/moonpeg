@@ -1,0 +1,5 @@
+import {
+  "kekeshuo/moonpeg" @peg,
+}
+
+pkgtype(kind: "executable")

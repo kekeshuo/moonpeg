@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "command": "hints",
+  "board": ".####\noo###\nooo##\noooo#\nooooo",
+  "lattice": "triangular",
+  "budget": 100000
+}
