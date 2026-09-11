@@ -1,6 +1,8 @@
 # Local readiness checkpoint — 2026-09-11
 
-This is a local release candidate, not a completed public hackathon submission.
+Historical pre-upload snapshot: the table below records the local gate before authorization,
+not current remote state. See [release verification](../RELEASING.md) for the later public
+repository and hosted acceptance evidence. The personal application remains outside Git.
 
 | Gate | Observed status |
 | --- | --- |

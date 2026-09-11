@@ -41,7 +41,7 @@ for index, sha in enumerate(shas):
 header = ['# MoonPeg actual commit audit', '', 'Generated: '+datetime.datetime.now().astimezone().isoformat(),
           'HEAD: '+git('rev-parse','HEAD'), f'Raw nonempty-history count: {len(shas)}',
           f'Conservative valid count: {valid} (required: 20)',
-          'GitHub contribution attribution: NOT YET VERIFIED; these are local authors only.',
+          'Scope: this script checks local commit records only. See the separate completion audit and GitHub API evidence for account attribution.',
           '', 'Evidence source: per-commit records appended only after successful commands by the development helper.',
           'The foundation is deliberately excluded; failed/unrecorded checks cannot contribute to the threshold.',
           'No empty commits or history rewriting is used to meet the count.', '']

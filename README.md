@@ -25,9 +25,15 @@ oo.  -- jump 0 -->  ..o
 Prerequisites: MoonBit; Node.js 22+ for CLI/oracle; Python 3.8+ for engineering scripts. Native
 execution additionally needs a C compiler. Install MoonBit from its [official download page](https://www.moonbitlang.com/download/).
 Verified baseline: `moonc v0.10.4+2cc641edf`, `moon 0.1.20260713`; CI pins it. This is a
-**local, unpublished** package: do not assume `moon add` will find it before manual publication.
+**public GitHub source package, not a published MoonCakes package**: use a source checkout
+or path dependency; do not assume `moon add` will find it before manual publication.
 
-From the repository root:
+Clone the public source, then run from its root:
+
+```sh
+git clone https://github.com/kekeshuo/moonpeg.git
+cd moonpeg
+```
 
 ```sh
 moon check --deny-warn
@@ -95,8 +101,11 @@ python scripts/verify.py --skip-native-runtime
 Local results: **43 tests on each of wasm-gc, wasm and js**; native strict check passed, but
 native build/test/demo are unverified locally. Independent oracle: **20096 board/goal cases**,
 1164 solutions independently replayed, 15606 necessary-obstruction checks. Eight request
-fixtures and 11 CLI process cases pass. Four-target Actions is configured, **not yet run on GitHub**.
-See [testing](docs/TESTING.md) and [readiness](docs/competition/local-readiness.md).
+fixtures and 11 CLI process cases pass. [Hosted acceptance run](https://github.com/kekeshuo/moonpeg/actions/runs/34613980106)
+passed all four targets, including **native build, 43 tests and the executable tutorial**,
+on Ubuntu 24.04. This hosted result does not imply a local Windows native test.
+See [testing](docs/TESTING.md), [release verification](docs/RELEASING.md) and the
+[historical local checkpoint](docs/competition/local-readiness.md).
 
 ## Documentation
 
@@ -106,5 +115,8 @@ See [testing](docs/TESTING.md) and [readiness](docs/competition/local-readiness.
 [Contributing](CONTRIBUTING.md) · [Changelog](CHANGELOG.md)
 
 Original implementation under [MIT](LICENSE); runtime dependencies are MoonBit core only.
-No MoonCakes publication or competition acceptance is claimed. Public repository, hosted CI,
-Release and final application await account confirmation and participant details.
+[Public source](https://github.com/kekeshuo/moonpeg) ·
+[CI runs](https://github.com/kekeshuo/moonpeg/actions) ·
+[GitHub releases](https://github.com/kekeshuo/moonpeg/releases).
+No MoonCakes publication or competition acceptance is claimed. Participant information and
+the competition application stay outside this repository; the application is not yet final.
