@@ -21,6 +21,7 @@ pub struct Board {
   cells : Array[Cell]
   mask : UInt64
   jumps : Array[Jump]
+  lattice : Lattice
 } derive(Debug)
 
 ///|
@@ -79,7 +80,10 @@ pub fn Position::count(self : Position) -> Int {
 
 ///|
 /// Rectangular ASCII: o=peg, .=empty hole, #=absent. Optional final LF, CRLF accepted.
-pub fn parse_board(text : String) -> (Board, Position) raise PegError {
+pub fn parse_board(
+  text : String,
+  lattice? : Lattice = Orthogonal,
+) -> (Board, Position) raise PegError {
   if text.length() == 0 || text.length() > 200 {
     raise InvalidBoard("size")
   }
@@ -128,7 +132,8 @@ pub fn parse_board(text : String) -> (Board, Position) raise PegError {
       height: rows.length(),
       cells,
       mask,
-      jumps: compile_jumps(cells),
+      jumps: compile_jumps(cells, lattice),
+      lattice,
     },
     { bits, },
   )

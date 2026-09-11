@@ -17,11 +17,11 @@ fn cell_index(cells : Array[Cell], x : Int, y : Int) -> Int? {
 }
 
 ///|
-fn compile_jumps(cells : Array[Cell]) -> Array[Jump] {
+fn compile_jumps(cells : Array[Cell], lattice : Lattice) -> Array[Jump] {
   let jumps : Array[Jump] = []
   for i = 0; i < cells.length(); i = i + 1 {
     let c = cells[i]
-    for d in [(1, 0), (0, 1), (-1, 0), (0, -1)] {
+    for d in lattice.directions() {
       match
         (
           cell_index(cells, c.x + d.0, c.y + d.1),
