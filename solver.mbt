@@ -21,6 +21,7 @@ priv struct SearchState {
   goal : Goal
   dead : Map[UInt64, Bool]
   memoize : Bool
+  maps : Array[Array[Int]]
   mut cache_hits : Int
 }
 
@@ -29,7 +30,8 @@ fn dfs(board : Board, pos : Position, state : SearchState) -> Outcome {
   if state.goal.matches(pos) {
     return Solved(state.path.copy())
   }
-  if state.memoize && state.dead.contains(pos.bits) {
+  let key = canonical_bits(pos.bits, state.maps)
+  if state.memoize && state.dead.contains(key) {
     state.cache_hits = state.cache_hits + 1
     return Unsolvable
   }
@@ -50,7 +52,7 @@ fn dfs(board : Board, pos : Position, state : SearchState) -> Outcome {
     }
   }
   if state.memoize {
-    state.dead.set(pos.bits, true)
+    state.dead.set(key, true)
   }
   Unsolvable
 }
@@ -65,6 +67,7 @@ pub fn Board::solve(
   goal : Goal,
   budget : Int,
   memoize? : Bool = true,
+  symmetry? : Bool = true,
 ) -> SearchReport raise PegError {
   self.validate(start)
   self.validate_goal(goal)
@@ -78,6 +81,11 @@ pub fn Board::solve(
     goal,
     dead: Map([]),
     memoize,
+    maps: if symmetry {
+      self.symmetries(goal)
+    } else {
+      []
+    },
     cache_hits: 0,
   }
   let outcome = dfs(self, start, state)
