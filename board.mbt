@@ -3,6 +3,7 @@
 pub suberror PegError {
   InvalidBoard(String)
   InvalidPosition
+  InvalidGoal
   InvalidMove(Int)
 } derive(Debug, Eq)
 
