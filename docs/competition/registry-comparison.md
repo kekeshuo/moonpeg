@@ -1,0 +1,73 @@
+# Registry comparison index
+
+Snapshot SHA-256: 8aebfa034a8a61df9664e74be9a90e343074555755bd18f87ee4e844c317510c
+
+Each named section was compared for domain, users, core data, primary workflow, technique, outputs, acceptance and non-goals. Shared algorithms do not alone constitute project identity. Full original snapshot remains outside Git in ../research.
+
+- MoonBench — no common peg-jump primary workflow or occupancy data; preserve existing boundary.
+- MoonContract — no common peg-jump primary workflow or occupancy data; preserve existing boundary.
+- MoonRecur — no common peg-jump primary workflow or occupancy data; preserve existing boundary.
+- MoonPatch — no common peg-jump primary workflow or occupancy data; preserve existing boundary.
+- MoonChange — no common peg-jump primary workflow or occupancy data; preserve existing boundary.
+- MoonShard — no common peg-jump primary workflow or occupancy data; preserve existing boundary.
+- MoonDag — no common peg-jump primary workflow or occupancy data; preserve existing boundary.
+- MoonSPDX — no common peg-jump primary workflow or occupancy data; preserve existing boundary.
+- clbbbb/moonbit-license-audit — no common peg-jump primary workflow or occupancy data; preserve existing boundary.
+- liyun/moonseal — no common peg-jump primary workflow or occupancy data; preserve existing boundary.
+- MoonSPDX Semantic Proof Engine — no common peg-jump primary workflow or occupancy data; preserve existing boundary.
+- MoonRedact — no common peg-jump primary workflow or occupancy data; preserve existing boundary.
+- MoonLogfmt Lens — no common peg-jump primary workflow or occupancy data; preserve existing boundary.
+- MoonLedger — no common peg-jump primary workflow or occupancy data; preserve existing boundary.
+- MoonQuotaKit — no common peg-jump primary workflow or occupancy data; preserve existing boundary.
+- MoonLeaseKit — no common peg-jump primary workflow or occupancy data; preserve existing boundary.
+- MoonRedact Replacement Candidate Matrix — no common peg-jump primary workflow or occupancy data; preserve existing boundary.
+- MoonDispatch — no common peg-jump primary workflow or occupancy data; preserve existing boundary.
+- MoonIndex — no common peg-jump primary workflow or occupancy data; preserve existing boundary.
+- MoonIndex Candidate Comparison Matrix — no common peg-jump primary workflow or occupancy data; preserve existing boundary.
+- Lucius646/MoonSearch — no common peg-jump primary workflow or occupancy data; preserve existing boundary.
+- MoonPalette Candidate Comparison Matrix — no common peg-jump primary workflow or occupancy data; preserve existing boundary.
+- MoonPalette — no common peg-jump primary workflow or occupancy data; preserve existing boundary.
+- bobzhang/colors — no common peg-jump primary workflow or occupancy data; preserve existing boundary.
+- MoonGCode Replacement Candidate Matrix — no common peg-jump primary workflow or occupancy data; preserve existing boundary.
+- MoonGCode — no common peg-jump primary workflow or occupancy data; preserve existing boundary.
+- MoonEDI — no common peg-jump primary workflow or occupancy data; preserve existing boundary.
+- Registration Protocol — no common peg-jump primary workflow or occupancy data; preserve existing boundary.
+- MoonWire — no common peg-jump primary workflow or occupancy data; preserve existing boundary.
+- MoonBallot — no common peg-jump primary workflow or occupancy data; preserve existing boundary.
+- MoonMime (rejected draft) — no common peg-jump primary workflow or occupancy data; preserve existing boundary.
+- MoonBallot external search catalogue (2026-09-09) — no common peg-jump primary workflow or occupancy data; preserve existing boundary.
+- MoonCookie — no common peg-jump primary workflow or occupancy data; preserve existing boundary.
+- MoonCIDR candidate (duplication gate rejected, local only) — no common peg-jump primary workflow or occupancy data; preserve existing boundary.
+- MoonCIDR directly inspected external boundaries (2026-09-09) — no common peg-jump primary workflow or occupancy data; preserve existing boundary.
+- MoonCIDR additional search catalogue (2026-09-09) — no common peg-jump primary workflow or occupancy data; preserve existing boundary.
+- MoonINI external search catalogue (2026-09-09) — no common peg-jump primary workflow or occupancy data; preserve existing boundary.
+- xuange1016/ibi-mbt — no common peg-jump primary workflow or occupancy data; preserve existing boundary.
+- MoonINI — no common peg-jump primary workflow or occupancy data; preserve existing boundary.
+- MoonArchive external TAR ecosystem checks (2026-09-09) — no common peg-jump primary workflow or occupancy data; preserve existing boundary.
+- MoonGrapheme (original proposal rejected at duplication gate) — no common peg-jump primary workflow or occupancy data; preserve existing boundary.
+- MoonGrapheme external search catalogue — 2026-09-09 — no common peg-jump primary workflow or occupancy data; preserve existing boundary.
+- MoonCookie duplication-gate correction — 2026-09-09 — no common peg-jump primary workflow or occupancy data; preserve existing boundary.
+- MoonPetri — no common peg-jump primary workflow or occupancy data; preserve existing boundary.
+- MoonPetri adjacent project review — 2026-09-09 — no common peg-jump primary workflow or occupancy data; preserve existing boundary.
+- MoonPetri additional fuzzy-search catalogue — 2026-09-09 — no common peg-jump primary workflow or occupancy data; preserve existing boundary.
+- MoonJsonPatch Candidate Comparison Matrix — no common peg-jump primary workflow or occupancy data; preserve existing boundary.
+- MoonIBAN — no common peg-jump primary workflow or occupancy data; preserve existing boundary.
+- MoonIBAN adjacent external checks (2026-09-10) — no common peg-jump primary workflow or occupancy data; preserve existing boundary.
+- MoonCSP — no common peg-jump primary workflow or occupancy data; preserve existing boundary.
+- MoonLangTag — no common peg-jump primary workflow or occupancy data; preserve existing boundary.
+- MoonLangTag adjacent external checks (2026-09-10) — no common peg-jump primary workflow or occupancy data; preserve existing boundary.
+- MoonMRZ — no common peg-jump primary workflow or occupancy data; preserve existing boundary.
+- MoonMRZ adjacent external checks (2026-09-10) — no common peg-jump primary workflow or occupancy data; preserve existing boundary.
+- MoonWire rejection reassessment and replacement candidate review — 2026-09-11 — no common peg-jump primary workflow or occupancy data; preserve existing boundary.
+- MoonSieve — no common peg-jump primary workflow or occupancy data; preserve existing boundary.
+- MoonURI — organizer rejection recorded 2026-09-11 — no common peg-jump primary workflow or occupancy data; preserve existing boundary.
+- MoonURI replacement research — 2026-09-11 — no common peg-jump primary workflow or occupancy data; preserve existing boundary.
+- MoonTSInspect — no common peg-jump primary workflow or occupancy data; preserve existing boundary.
+- MoonBallot — organizer rejection and isolated repair recorded 2026-09-11 — no common peg-jump primary workflow or occupancy data; preserve existing boundary.
+- MoonPolicyProof — no common peg-jump primary workflow or occupancy data; preserve existing boundary.
+- MoonINI — organizer rejection recorded 2026-09-11 — no common peg-jump primary workflow or occupancy data; preserve existing boundary.
+- MoonCSP — organizer rejection and MoonWeave replacement, 2026-09-11 — no common peg-jump primary workflow or occupancy data; preserve existing boundary.
+- MoonWeave — no common peg-jump primary workflow or occupancy data; preserve existing boundary.
+- MoonWeave candidate exclusions, external-checked 2026-09-11 — no common peg-jump primary workflow or occupancy data; preserve existing boundary.
+- MoonRestrict — no common peg-jump primary workflow or occupancy data; preserve existing boundary.
+- MoonRestrict external ecosystem check — 2026-09-11 — no common peg-jump primary workflow or occupancy data; preserve existing boundary.
