@@ -1,0 +1,126 @@
+// Generated using `moon info`, DON'T EDIT IT
+package "kekeshuo/moonpeg"
+
+import {
+  "moonbitlang/core/debug",
+}
+
+// Values
+pub fn english_board() -> (Board, Position) raise PegError
+
+pub fn parse_board(String, lattice? : Lattice) -> (Board, Position) raise PegError
+
+pub fn triangle_board(Int, Int) -> (Board, Position) raise PegError
+
+pub fn version() -> String
+
+// Errors
+pub suberror PegError {
+  InvalidBoard(String)
+  InvalidPosition
+  InvalidGoal
+  InvalidBudget
+  InvalidTranscript(Int)
+  InvalidMove(Int)
+} derive(Eq, @debug.Debug)
+
+// Types and methods
+pub struct Board {
+  width : Int
+  height : Int
+  cells : Array[Cell]
+  mask : UInt64
+  jumps : Array[Jump]
+  lattice : Lattice
+} derive(@debug.Debug)
+pub fn Board::canonical(Self, Position, Goal) -> Position raise PegError
+pub fn Board::class_compatible(Self, Position, Goal) -> Bool raise PegError
+pub fn Board::component_compatible(Self, Position, Goal) -> Bool raise PegError
+pub fn Board::components(Self) -> Array[Array[Int]]
+pub fn Board::decode_steps(Self, Array[Step]) -> Array[Int] raise PegError
+pub fn Board::dimensions(Self) -> (Int, Int)
+pub fn Board::encode_steps(Self, Array[Int]) -> Array[Step] raise PegError
+pub fn Board::generate(Self, Position, Int, UInt) -> Generated raise PegError
+pub fn Board::goal_at(Self, Int, Int) -> Goal raise PegError
+pub fn Board::hints(Self, Position, Goal, Int) -> Array[Hint] raise PegError
+pub fn Board::holes(Self) -> Array[Cell]
+pub fn Board::index(Self, Int, Int) -> Int?
+pub fn Board::is_goal(Self, Position, Goal) -> Bool raise PegError
+pub fn Board::is_terminal(Self, Position) -> Bool raise PegError
+pub fn Board::jumps(Self) -> Array[Jump]
+pub fn Board::lattice(Self) -> Lattice
+pub fn Board::legal_moves(Self, Position) -> Array[Int] raise PegError
+pub fn Board::obstructions(Self, Position, Goal) -> Array[String] raise PegError
+pub fn Board::play(Self, Position, Int) -> Position raise PegError
+pub fn Board::position_class(Self, Position) -> UInt64 raise PegError
+pub fn Board::render(Self, Position) -> String raise PegError
+pub fn Board::replay(Self, Position, Array[Int]) -> Array[Position] raise PegError
+pub fn Board::reverse_moves(Self, Position) -> Array[Int] raise PegError
+pub fn Board::size(Self) -> Int
+pub fn Board::solve(Self, Position, Goal, Int, memoize? : Bool, symmetry? : Bool) -> SearchReport raise PegError
+pub fn Board::symmetry_count(Self, Goal) -> Int raise PegError
+pub fn Board::unplay(Self, Position, Int) -> Position raise PegError
+pub fn Board::validate(Self, Position) -> Unit raise PegError
+pub fn Board::validate_goal(Self, Goal) -> Unit raise PegError
+pub fn Board::verify_solution(Self, Position, Array[Int], Goal) -> Bool raise PegError
+pub fn Board::verify_steps(Self, Position, Goal, Array[Step]) -> Bool raise PegError
+
+pub(all) struct Cell {
+  x : Int
+  y : Int
+} derive(Eq, @debug.Debug)
+
+pub(all) struct Generated {
+  start : Position
+  goal : Position
+  solution : Array[Int]
+  reached_depth : Bool
+} derive(Eq, @debug.Debug)
+
+pub(all) enum Goal {
+  AnySingle
+  Exact(Position)
+} derive(Eq, @debug.Debug)
+
+pub(all) struct Hint {
+  move_id : Int
+  report : SearchReport
+} derive(Eq, @debug.Debug)
+
+pub(all) struct Jump {
+  from : Int
+  over : Int
+  to : Int
+} derive(Eq, @debug.Debug)
+
+pub(all) enum Lattice {
+  Orthogonal
+  Triangular
+} derive(Eq, @debug.Debug)
+
+pub(all) enum Outcome {
+  Solved(Array[Int])
+  Unsolvable
+  Exhausted
+} derive(Eq, @debug.Debug)
+
+pub(all) struct Position {
+  bits : UInt64
+} derive(Eq, Hash, @debug.Debug)
+pub fn Position::count(Self) -> Int
+
+pub(all) struct SearchReport {
+  outcome : Outcome
+  visited : Int
+  cache_hits : Int
+} derive(Eq, @debug.Debug)
+
+pub(all) struct Step {
+  from : Cell
+  to : Cell
+} derive(Eq, @debug.Debug)
+
+// Type aliases
+
+// Traits
+

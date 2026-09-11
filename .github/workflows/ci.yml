@@ -1,0 +1,31 @@
+name: acceptance
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    strategy:
+      fail-fast: false
+      matrix:
+        target: [wasm-gc, wasm, js, native]
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
+        with:
+          node-version: '22'
+      - name: Install pinned MoonBit release using verified official installer
+        shell: bash
+        run: |
+          curl --fail --location --retry 3 https://cli.moonbitlang.com/install/unix.sh -o "$RUNNER_TEMP/moon-install.sh"
+          echo "46495f8cdc0050f79b6cb195d66478d101cb3601d68506568fbe377fcdf2a9fe  $RUNNER_TEMP/moon-install.sh" | sha256sum --check
+          bash "$RUNNER_TEMP/moon-install.sh" '0.10.4+2cc641edf'
+          echo "$HOME/.moon/bin" >> "$GITHUB_PATH"
+      - name: Check build test and execute tutorial
+        run: python3 scripts/verify.py --target ${{ matrix.target }} --report /tmp/moonpeg-verification.json
