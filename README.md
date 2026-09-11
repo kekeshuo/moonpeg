@@ -24,9 +24,18 @@ oo.  -- jump 0 -->  ..o
 
 Prerequisites: MoonBit; Node.js 22+ for CLI/oracle; Python 3.8+ for engineering scripts. Native
 execution additionally needs a C compiler. Install MoonBit from its [official download page](https://www.moonbitlang.com/download/).
-Verified baseline: `moonc v0.10.4+2cc641edf`, `moon 0.1.20260713`; CI pins it. This is a
-**public GitHub source package, not a published MoonCakes package**: use a source checkout
-or path dependency; do not assume `moon add` will find it before manual publication.
+Verified baseline: `moonc v0.10.4+2cc641edf`, `moon 0.1.20260713`; CI pins it.
+
+**Published on MoonCakes:** [kekeshuo/moonpeg 0.1.0](https://mooncakes.io/docs/kekeshuo/moonpeg).
+From an existing MoonBit consumer project, install the released library:
+
+```sh
+moon add kekeshuo/moonpeg@0.1.0
+```
+
+The registry download was verified in a fresh consumer with no local path dependency:
+strict checking and actual core/protocol API tests passed on wasm-gc and js.
+Use a source checkout for the bundled CLI, tutorial and engineering scripts below.
 
 Clone the public source, then run from its root:
 
@@ -48,9 +57,10 @@ The tutorial solves the 15-hole triangle in 13 jumps (115 expanded nodes on the 
 baseline), verifies every transition, then generates and verifies a nine-peg puzzle.
 `node scripts/moonpeg.cjs --help` describes file/stdin usage and exit codes.
 
-### Integrate before publication
+### Integrate the library
 
-Use a local dependency in a separate consumer's `moon.mod.json`:
+Use the registry dependency installed above. For local development instead, use a path
+dependency in a separate consumer's `moon.mod.json`:
 
 ```json
 {"name":"local/my_puzzle","deps":{"kekeshuo/moonpeg":{"path":"../moonpeg"}}}
@@ -67,7 +77,8 @@ match board.solve(start, AnySingle, 100).outcome {
 }
 ```
 
-`python scripts/consumer-test.py` verifies a separate unpublished path-dependency consumer.
+`python scripts/consumer-test.py` verifies a separate local path-dependency consumer;
+it does not test the registry download.
 Generated APIs: [core](pkg.generated.mbti), [protocol](protocol/pkg.generated.mbti).
 Compiling usage: [tutorial source](examples/solve/main.mbt).
 
@@ -118,5 +129,8 @@ Original implementation under [MIT](LICENSE); runtime dependencies are MoonBit c
 [Public source](https://github.com/kekeshuo/moonpeg) ·
 [CI runs](https://github.com/kekeshuo/moonpeg/actions) ·
 [GitHub releases](https://github.com/kekeshuo/moonpeg/releases).
-No MoonCakes publication or competition acceptance is claimed. Participant information and
-the competition application stay outside this repository; the application is not yet final.
+MoonCakes **0.1.0 was published on 2026-09-11**; its public build status is successful and
+its archive checksum matches the verified release package. The published package and
+`v0.1.0` tag retain their original source snapshot; this README on `main` includes later
+publication-status updates. No competition submission or organizer acceptance is claimed.
+The completed application and participant information remain outside this repository.
