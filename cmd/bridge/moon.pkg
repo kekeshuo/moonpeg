@@ -1,0 +1,9 @@
+import {
+  "kekeshuo/moonpeg/protocol",
+}
+
+supported_targets = "js"
+
+options(
+  link: { "js": { "exports": [ "handle" ], "format": "cjs" } },
+)
