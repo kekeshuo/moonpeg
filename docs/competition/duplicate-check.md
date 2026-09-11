@@ -3,7 +3,7 @@
 Date: 2026-09-11 (Asia/Shanghai). Decision: select original MoonPeg, not an approval or guaranteed competition acceptance.
 
 ## Procedure and limitations
-Read the installed moonbit-hackathon-builder fixed September rules, environment preflight and permanent registry, and invoked the installed osc2026-guide Project Research Guide. The latter is an operational research aid, NOT organizer human review and NOT a replacement for the fixed September rules. `moon search --help` actually failed: the installed moon has no search subcommand. Replaced it with 25 live MoonCakes public search API queries; raw results retained outside the repository in ../research. GitHub clone connections failed; GitHub REST tree/content endpoints were used instead. Source inspection was scoped, not an exhaustive audit of the ecosystem.
+Read the installed moonbit-hackathon-builder fixed September rules, environment preflight and permanent registry, and invoked the installed osc2026-guide Project Research Guide. The latter is an operational research aid, NOT organizer human review and NOT a replacement for the fixed September rules. `moon search --help` actually failed: the installed moon has no search subcommand. Replaced it with 25 live MoonCakes public search API queries; raw results retained outside the repository in the sibling research directory; portable query/package summaries are in [search-evidence.json](search-evidence.json). GitHub clone connections failed; GitHub REST tree/content endpoints were used instead. Source inspection was scoped, not an exhaustive audit of the ecosystem.
 
 ## Three different candidates
 |Candidate/domain|Core data and acceptance loop|Decision|
@@ -17,7 +17,7 @@ All complete existing registry records were loaded for comparison; their permane
 ## Search evidence
 MoonCakes keywords: MoonImpose, imposition, booklet, signature printing, duplex, cut stack, printing, pdf, pagelayout, sheet folding, MoonTuning, microtonal, music tuning, scala scale, MoonPeg, peg solitaire, solitaire, peg, 跳珠, 孔明棋, 独立钻石棋, marble solitaire, English solitaire, board solver.
 Exact imposition/booklet and peg-solitaire phrases returned empty lists. This alone was NOT treated as novelty evidence. `solitaire` returned Mahjong; `board solver` returned general pathfinding/algorithms and games. All are examined as adjacent categories rather than discarded by name.
-GitHub repository queries `imposition language:MoonBit`, `booklet MoonBit`, `"peg solitaire" MoonBit` are recorded in ../research/github-*.json. Repository search is not full code search.
+GitHub repository queries `imposition language:MoonBit`, `booklet MoonBit`, `"peg solitaire" MoonBit` are recorded in the sibling research directory (github-*.json). Repository search is not full code search.
 
 |Package/version|Owner, maintenance signal|Capability and scoped conclusion|
 |---|---|---|
@@ -28,3 +28,17 @@ GitHub repository queries `imposition language:MoonBit`, `booklet MoonBit`, `"pe
 |[Suquster/moonbit-pathfinding](https://mooncakes.io/docs/Suquster/moonbit-pathfinding)|[source](https://github.com/Suquster/moonbit-pathfinding)|README/source tree: general navigation/graph algorithms. Do not reimplement a graph library; the proposed reusable API is peg-specific.|
 
 Newly discovered packages were appended to the permanent registry at metadata level, with source-reviewed ones distinguished. No external code or fixtures are copied into MoonPeg. Recheck prior to final submission. Duplication checking is separate from MoonCakes publication; nothing has been published.
+
+## Local-readiness recheck — 2026-09-11
+
+Four additional live MoonCakes queries (29 total requests across selection/recheck) repeated
+MoonPeg, peg solitaire, 孔明棋 and board solver. MoonPeg fuzzy results were moonpg (PostgreSQL),
+moonpermit (effect plans), moonpetri (generic Petri nets), foxql (SQL). Exact peg phrases remained
+empty; board solver still returned pathfinding, general algorithms and games. No direct mature
+peg-jump implementation was found in this inspected scope. This is not organizer approval.
+
+Games metadata: pushed 2026-09-09, not archived; GitHub did not identify a repository license.
+No games source is copied. Pathfinding: version 0.2.0, pushed 2026-07-14, not archived, Apache-2.0.
+New registry domains since selection (DNA restriction cleavage, crystallographic diffraction and
+Fountain rehearsal preparation) were reviewed and do not share the peg-jump data/workflow.
+Recheck again before actual submission because the ecosystem can change.

@@ -1,0 +1,1314 @@
+{
+  "checked": "2026-09-11",
+  "scope": "Public API keyword searches, metadata and selected source trees/files; not exhaustive code search",
+  "queries": [
+    {
+      "phase": "pre-implementation",
+      "term": "MoonImpose",
+      "url": "https://mooncakes.io/api/v0/search?kw=MoonImpose&limit=100",
+      "status": 200,
+      "count": 0,
+      "packages": []
+    },
+    {
+      "phase": "pre-implementation",
+      "term": "imposition",
+      "url": "https://mooncakes.io/api/v0/search?kw=imposition&limit=100",
+      "status": 200,
+      "count": 0,
+      "packages": []
+    },
+    {
+      "phase": "pre-implementation",
+      "term": "booklet",
+      "url": "https://mooncakes.io/api/v0/search?kw=booklet&limit=100",
+      "status": 200,
+      "count": 0,
+      "packages": []
+    },
+    {
+      "phase": "pre-implementation",
+      "term": "signature printing",
+      "url": "https://mooncakes.io/api/v0/search?kw=signature%20printing&limit=100",
+      "status": 200,
+      "count": 6,
+      "packages": [
+        {
+          "name": "marianoguerra/was",
+          "version": "0.1.1",
+          "repository": "https://github.com/marianoguerra/wax-mb"
+        },
+        {
+          "name": "CAIMEOX/symbit",
+          "version": "0.5.10",
+          "repository": "https://github.com/CAIMEOX/symbit.git"
+        },
+        {
+          "name": "marianoguerra/pure-py",
+          "version": "0.10.0",
+          "repository": "https://github.com/marianoguerra/pure-py-mb"
+        },
+        {
+          "name": "azhzx/qbe",
+          "version": "0.4.0",
+          "repository": ""
+        },
+        {
+          "name": "gaato/discord",
+          "version": "0.1.0",
+          "repository": "https://github.com/gaato/discord.mbt"
+        },
+        {
+          "name": "bobzhang/games",
+          "version": "0.9.33",
+          "repository": "https://github.com/bobzhang/games"
+        }
+      ]
+    },
+    {
+      "phase": "pre-implementation",
+      "term": "duplex",
+      "url": "https://mooncakes.io/api/v0/search?kw=duplex&limit=100",
+      "status": 200,
+      "count": 4,
+      "packages": [
+        {
+          "name": "mizchi/js",
+          "version": "0.12.2",
+          "repository": "https://github.com/mizchi/js.mbt"
+        },
+        {
+          "name": "sbqrre/moonbit-mcu-hal",
+          "version": "0.2.1",
+          "repository": "https://github.com/sbqrre/moonbit-mcu-hal"
+        },
+        {
+          "name": "Yoorkin/duplix",
+          "version": "0.2.9",
+          "repository": "https://github.com/Yoorkin/duplix"
+        },
+        {
+          "name": "lampclaw/minimoon",
+          "version": "0.2.0",
+          "repository": "https://github.com/lucavance/minimoon"
+        }
+      ]
+    },
+    {
+      "phase": "pre-implementation",
+      "term": "cut stack",
+      "url": "https://mooncakes.io/api/v0/search?kw=cut%20stack&limit=100",
+      "status": 200,
+      "count": 6,
+      "packages": [
+        {
+          "name": "bobzhang/loop_invariants_graph",
+          "version": "0.17.1",
+          "repository": "https://github.com/moonbit-community/loop_invariants"
+        },
+        {
+          "name": "bobzhang/games",
+          "version": "0.9.33",
+          "repository": "https://github.com/bobzhang/games"
+        },
+        {
+          "name": "bobzhang/loop_invariants_data_structures",
+          "version": "0.11.1",
+          "repository": "https://github.com/moonbit-community/loop_invariants"
+        },
+        {
+          "name": "Juwan-Hwang/moon-certified",
+          "version": "0.1.1",
+          "repository": "https://github.com/Juwan-Hwang/moon-certified"
+        },
+        {
+          "name": "manabeai/ac-library-mbt",
+          "version": "0.1.0",
+          "repository": ""
+        },
+        {
+          "name": "WGYo90/moonbit-gif",
+          "version": "0.1.0",
+          "repository": "https://github.com/WGYo90/moonbit-gif"
+        }
+      ]
+    },
+    {
+      "phase": "pre-implementation",
+      "term": "printing",
+      "url": "https://mooncakes.io/api/v0/search?kw=printing&limit=100",
+      "status": 200,
+      "count": 51,
+      "packages": [
+        {
+          "name": "marianoguerra/pretty-fast-pretty-printer",
+          "version": "0.2.2",
+          "repository": "https://github.com/marianoguerra/pretty-fast-pretty-printer-mb"
+        },
+        {
+          "name": "YumeXi/format",
+          "version": "0.3.11",
+          "repository": "https://github.com/YumeXi/format"
+        },
+        {
+          "name": "hustcer/tabular",
+          "version": "0.5.2",
+          "repository": "https://github.com/hustcer/tabular"
+        },
+        {
+          "name": "maria/json_parser",
+          "version": "0.1.1",
+          "repository": "https://github.com/maria/json_parser"
+        },
+        {
+          "name": "tonyfettes/json_parser",
+          "version": "0.1.0",
+          "repository": ""
+        },
+        {
+          "name": "marianoguerra/wax-cli",
+          "version": "0.2.2",
+          "repository": "https://github.com/marianoguerra/wax-mb"
+        },
+        {
+          "name": "cli/head",
+          "version": "0.1.4",
+          "repository": "https://github.com/moonbit-community/cmd"
+        },
+        {
+          "name": "mizchi/mbt_rs",
+          "version": "0.3.0",
+          "repository": "https://github.com/mizchi/mbt_rs"
+        },
+        {
+          "name": "bobzhang/sexp",
+          "version": "0.1.3",
+          "repository": ""
+        },
+        {
+          "name": "wedarp/moonbit-abc",
+          "version": "0.1.6",
+          "repository": "https://github.com/wedarp/moonbit-abc"
+        },
+        {
+          "name": "bobzhang/html_parser_examples",
+          "version": "0.1.0",
+          "repository": "https://github.com/bobzhang/html_parser"
+        },
+        {
+          "name": "marianoguerra/was",
+          "version": "0.1.1",
+          "repository": "https://github.com/marianoguerra/wax-mb"
+        },
+        {
+          "name": "tonyfettes/skills-web-fetch",
+          "version": "0.1.0",
+          "repository": "https://github.com/tonyfettes/skills"
+        },
+        {
+          "name": "zxwrrg/tradedocs",
+          "version": "0.1.0",
+          "repository": "https://github.com/zxwrrg/moonbit-tradedocs"
+        },
+        {
+          "name": "ziju-max/genetic_code",
+          "version": "0.1.0",
+          "repository": "https://github.com/ziju-max/moonbit-genetic-code"
+        },
+        {
+          "name": "moonbit-community/prettyprinter",
+          "version": "0.4.10",
+          "repository": "https://github.com/moonbit-community/prettyprinter"
+        },
+        {
+          "name": "marianoguerra/shrubbery",
+          "version": "0.1.1",
+          "repository": "https://github.com/marianoguerra/shrubbery-mb"
+        },
+        {
+          "name": "CAIMEOX/symbit",
+          "version": "0.5.10",
+          "repository": "https://github.com/CAIMEOX/symbit.git"
+        },
+        {
+          "name": "tiye/json5",
+          "version": "0.0.3",
+          "repository": "https://github.com/worktools/json5.mbt"
+        },
+        {
+          "name": "marianoguerra/html",
+          "version": "0.1.0",
+          "repository": "https://github.com/marianoguerra/shrubbery-mb"
+        },
+        {
+          "name": "moonbit-community/sqlparser",
+          "version": "0.5.1",
+          "repository": "https://github.com/moonbit-community/sqlparser"
+        },
+        {
+          "name": "Milky2018/moonlight",
+          "version": "0.1.1",
+          "repository": ""
+        },
+        {
+          "name": "bobzhang/jq",
+          "version": "0.1.2",
+          "repository": "https://github.com/moonbit-community/moonbit-jq"
+        },
+        {
+          "name": "gmlewis/picogk",
+          "version": "0.2.0",
+          "repository": "https://github.com/gmlewis/PicoGK"
+        },
+        {
+          "name": "tonyfettes/tree_sitter",
+          "version": "0.4.6",
+          "repository": "https://github.com/tonyfettes/moonbit-tree-sitter"
+        },
+        {
+          "name": "bobzhang/loop_invariants",
+          "version": "0.8.1",
+          "repository": "https://github.com/moonbit-community/loop_invariants"
+        },
+        {
+          "name": "gmlewis/step",
+          "version": "0.1.18",
+          "repository": "https://github.com/gmlewis/moonbit-step"
+        },
+        {
+          "name": "marianoguerra/css",
+          "version": "0.1.1",
+          "repository": "https://github.com/marianoguerra/shrubbery-mb"
+        },
+        {
+          "name": "totto2727/workgraph-core",
+          "version": "0.1.4",
+          "repository": "https://github.com/totto2727-org/workgraph"
+        },
+        {
+          "name": "mizchi/lsp",
+          "version": "0.1.3",
+          "repository": "https://github.com/mizchi/lsp.mbt"
+        },
+        {
+          "name": "tonyfettes/ds4",
+          "version": "0.1.1",
+          "repository": ""
+        },
+        {
+          "name": "001-Elsa/moonpack",
+          "version": "0.1.2",
+          "repository": "https://github.com/001-Elsa/Moonbit-Submit"
+        },
+        {
+          "name": "lcyllp/moonbit-nlse-ssfm",
+          "version": "0.1.0",
+          "repository": "https://github.com/lcyllp/moonbit-nlse-ssfm"
+        },
+        {
+          "name": "mizchi/x",
+          "version": "0.6.1",
+          "repository": "https://github.com/mizchi/x"
+        },
+        {
+          "name": "bobzhang/html_parser",
+          "version": "0.1.8",
+          "repository": "https://github.com/bobzhang/html_parser"
+        },
+        {
+          "name": "mizchi/crater-painter",
+          "version": "0.19.0",
+          "repository": "https://github.com/mizchi/crater"
+        },
+        {
+          "name": "moonbitlang/core",
+          "version": "0.1.20260908+1634b282e",
+          "repository": "https://github.com/moonbitlang/core"
+        },
+        {
+          "name": "wzzc-dev/moui",
+          "version": "0.1.12",
+          "repository": "https://github.com/wzzc-dev/MoUI.git"
+        },
+        {
+          "name": "bobzhang/docx2html",
+          "version": "0.5.0",
+          "repository": "https://github.com/bobzhang/docx2html"
+        },
+        {
+          "name": "marianoguerra/wax",
+          "version": "0.2.2",
+          "repository": "https://github.com/marianoguerra/wax-mb"
+        },
+        {
+          "name": "tonyfettes/ghostty",
+          "version": "0.4.0",
+          "repository": "https://github.com/moonbit-community/tonyfettes-ghostty"
+        },
+        {
+          "name": "gmlewis/fonts-p",
+          "version": "0.19.15",
+          "repository": "https://github.com/gmlewis/mbt-fonts-p"
+        },
+        {
+          "name": "marianoguerra/pure-py",
+          "version": "0.10.0",
+          "repository": "https://github.com/marianoguerra/pure-py-mb"
+        },
+        {
+          "name": "ZSeanYves/doc_parser",
+          "version": "0.1.1",
+          "repository": "https://github.com/ZSeanYves/markitdown.git"
+        },
+        {
+          "name": "Ag108/MoonCache",
+          "version": "0.2.0",
+          "repository": "https://github.com/yzy726/MoonCache"
+        },
+        {
+          "name": "azhzx/qbe",
+          "version": "0.4.0",
+          "repository": ""
+        },
+        {
+          "name": "gaato/discord",
+          "version": "0.1.0",
+          "repository": "https://github.com/gaato/discord.mbt"
+        },
+        {
+          "name": "Milky2018/moonplant",
+          "version": "0.3.2",
+          "repository": "https://github.com/Milky2018/moonplant.git"
+        },
+        {
+          "name": "tonyfettes/cairo",
+          "version": "0.2.0",
+          "repository": "https://github.com/moonbit-community/tonyfettes-g"
+        },
+        {
+          "name": "bobzhang/games",
+          "version": "0.9.33",
+          "repository": "https://github.com/bobzhang/games"
+        },
+        {
+          "name": "mizchi/crater-browser",
+          "version": "0.19.0",
+          "repository": "https://github.com/mizchi/crater"
+        }
+      ]
+    },
+    {
+      "phase": "pre-implementation",
+      "term": "pdf",
+      "url": "https://mooncakes.io/api/v0/search?kw=pdf&limit=100",
+      "status": 200,
+      "count": 46,
+      "packages": [
+        {
+          "name": "bobzhang/pdflite",
+          "version": "0.1.41",
+          "repository": "https://github.com/bobzhang/pdflite"
+        },
+        {
+          "name": "gmlewis/fonts",
+          "version": "0.19.15",
+          "repository": "https://github.com/gmlewis/moonbit-fonts"
+        },
+        {
+          "name": "gmlewis/fonts-m",
+          "version": "0.19.15",
+          "repository": "https://github.com/gmlewis/mbt-fonts-m"
+        },
+        {
+          "name": "gmlewis/fonts-o",
+          "version": "0.19.15",
+          "repository": "https://github.com/gmlewis/mbt-fonts-o"
+        },
+        {
+          "name": "gmlewis/fonts-a",
+          "version": "0.19.15",
+          "repository": "https://github.com/gmlewis/mbt-fonts-a"
+        },
+        {
+          "name": "gmlewis/fonts-f",
+          "version": "0.19.15",
+          "repository": "https://github.com/gmlewis/mbt-fonts-f"
+        },
+        {
+          "name": "gmlewis/fonts-b",
+          "version": "0.19.15",
+          "repository": "https://github.com/gmlewis/mbt-fonts-b"
+        },
+        {
+          "name": "gmlewis/fonts-e",
+          "version": "0.19.15",
+          "repository": "https://github.com/gmlewis/mbt-fonts-e"
+        },
+        {
+          "name": "gmlewis/fonts-n",
+          "version": "0.19.15",
+          "repository": "https://github.com/gmlewis/mbt-fonts-n"
+        },
+        {
+          "name": "gmlewis/fonts-c",
+          "version": "0.19.15",
+          "repository": "https://github.com/gmlewis/mbt-fonts-c"
+        },
+        {
+          "name": "gmlewis/fonts-h",
+          "version": "0.19.15",
+          "repository": "https://github.com/gmlewis/mbt-fonts-h"
+        },
+        {
+          "name": "gmlewis/fonts-d",
+          "version": "0.19.15",
+          "repository": "https://github.com/gmlewis/mbt-fonts-d"
+        },
+        {
+          "name": "gmlewis/fonts-g",
+          "version": "0.19.15",
+          "repository": "https://github.com/gmlewis/mbt-fonts-g"
+        },
+        {
+          "name": "gmlewis/fonts-i",
+          "version": "0.19.15",
+          "repository": "https://github.com/gmlewis/mbt-fonts-i"
+        },
+        {
+          "name": "gmlewis/fonts-j",
+          "version": "0.19.15",
+          "repository": "https://github.com/gmlewis/mbt-fonts-j"
+        },
+        {
+          "name": "gmlewis/fonts-s",
+          "version": "0.19.15",
+          "repository": "https://github.com/gmlewis/mbt-fonts-s"
+        },
+        {
+          "name": "gmlewis/fonts-p",
+          "version": "0.19.15",
+          "repository": "https://github.com/gmlewis/mbt-fonts-p"
+        },
+        {
+          "name": "gmlewis/fonts-r",
+          "version": "0.19.15",
+          "repository": "https://github.com/gmlewis/mbt-fonts-r"
+        },
+        {
+          "name": "gmlewis/fonts-t",
+          "version": "0.19.15",
+          "repository": "https://github.com/gmlewis/mbt-fonts-t"
+        },
+        {
+          "name": "gmlewis/fonts-z",
+          "version": "0.19.15",
+          "repository": "https://github.com/gmlewis/mbt-fonts-z"
+        },
+        {
+          "name": "gmlewis/fonts-q",
+          "version": "0.19.15",
+          "repository": "https://github.com/gmlewis/mbt-fonts-q"
+        },
+        {
+          "name": "gmlewis/fonts-w",
+          "version": "0.19.15",
+          "repository": "https://github.com/gmlewis/mbt-fonts-w"
+        },
+        {
+          "name": "gmlewis/fonts-l",
+          "version": "0.19.15",
+          "repository": "https://github.com/gmlewis/mbt-fonts-l"
+        },
+        {
+          "name": "gmlewis/fonts-u",
+          "version": "0.19.15",
+          "repository": "https://github.com/gmlewis/mbt-fonts-u"
+        },
+        {
+          "name": "gmlewis/fonts-y",
+          "version": "0.19.15",
+          "repository": "https://github.com/gmlewis/mbt-fonts-y"
+        },
+        {
+          "name": "gmlewis/fonts-v",
+          "version": "0.19.15",
+          "repository": "https://github.com/gmlewis/mbt-fonts-v"
+        },
+        {
+          "name": "gmlewis/fonts-k",
+          "version": "0.19.15",
+          "repository": "https://github.com/gmlewis/mbt-fonts-k"
+        },
+        {
+          "name": "bobzhang/pagelayout",
+          "version": "0.1.1",
+          "repository": "https://github.com/moonbitlang/office.mbt"
+        },
+        {
+          "name": "R00TK17/moonreader",
+          "version": "0.1.3",
+          "repository": "https://github.com/R00TK17/MoonReader"
+        },
+        {
+          "name": "ZSeanYves/markitdown",
+          "version": "0.5.3",
+          "repository": "https://github.com/ZSeanYves/markitdown.git"
+        },
+        {
+          "name": "ZSeanYves/doc_parser",
+          "version": "0.1.1",
+          "repository": "https://github.com/ZSeanYves/markitdown.git"
+        },
+        {
+          "name": "bobzhang/portable_cli",
+          "version": "0.1.11",
+          "repository": "https://github.com/bobzhang/portable_cli"
+        },
+        {
+          "name": "totto2727/bw",
+          "version": "0.2.2",
+          "repository": "https://github.com/totto2727-org/bw"
+        },
+        {
+          "name": "bobzhang/vg",
+          "version": "0.3.1",
+          "repository": "https://github.com/moonbit-community/vg"
+        },
+        {
+          "name": "CAIMEOX/cairoon",
+          "version": "0.2.0",
+          "repository": "https://github.com/moonbit-community/cairoon"
+        },
+        {
+          "name": "dgmxjj/moonbit-posterkit",
+          "version": "0.1.4",
+          "repository": "https://github.com/dgmxjj/moonbit-posterkit"
+        },
+        {
+          "name": "vectie/moondesk",
+          "version": "0.1.5",
+          "repository": ""
+        },
+        {
+          "name": "vectie/moonleaf",
+          "version": "0.1.14",
+          "repository": "https://github.com/vectie/moonleaf"
+        },
+        {
+          "name": "hnlyxiaobing/moonbitmark",
+          "version": "0.4.3",
+          "repository": "https://github.com/hnlyxiaobing/MoonBitMark"
+        },
+        {
+          "name": "wccerty/moonbit-artboard",
+          "version": "0.1.2",
+          "repository": "https://github.com/wccerty/moonbit-artboard"
+        },
+        {
+          "name": "mizchi/npm_typed",
+          "version": "0.1.15",
+          "repository": "https://github.com/mizchi/npm_typed.mbt"
+        },
+        {
+          "name": "bikallem/compress",
+          "version": "0.3.4",
+          "repository": "https://github.com/bikallem/compress.git"
+        },
+        {
+          "name": "vectie/moonclaw",
+          "version": "0.1.6",
+          "repository": "https://github.com/vectie/moonclaw"
+        },
+        {
+          "name": "hnlyxiaobing/MBOpenClacky",
+          "version": "0.1.3",
+          "repository": "https://github.com/hnlyxiaobing/MBOpenClacky"
+        },
+        {
+          "name": "Juwan-Hwang/moon-certified",
+          "version": "0.1.1",
+          "repository": "https://github.com/Juwan-Hwang/moon-certified"
+        },
+        {
+          "name": "vectie/moontown",
+          "version": "0.1.6",
+          "repository": "https://github.com/vectie/moontown"
+        }
+      ]
+    },
+    {
+      "phase": "pre-implementation",
+      "term": "pagelayout",
+      "url": "https://mooncakes.io/api/v0/search?kw=pagelayout&limit=100",
+      "status": 200,
+      "count": 2,
+      "packages": [
+        {
+          "name": "bobzhang/pagelayout",
+          "version": "0.1.1",
+          "repository": "https://github.com/moonbitlang/office.mbt"
+        },
+        {
+          "name": "f4ah6o/papyr",
+          "version": "0.1.0",
+          "repository": "https://github.com/f4ah6o/papyr.mbt"
+        }
+      ]
+    },
+    {
+      "phase": "pre-implementation",
+      "term": "sheet folding",
+      "url": "https://mooncakes.io/api/v0/search?kw=sheet%20folding&limit=100",
+      "status": 200,
+      "count": 0,
+      "packages": []
+    },
+    {
+      "phase": "pre-implementation",
+      "term": "MoonTuning",
+      "url": "https://mooncakes.io/api/v0/search?kw=MoonTuning&limit=100",
+      "status": 200,
+      "count": 0,
+      "packages": []
+    },
+    {
+      "phase": "pre-implementation",
+      "term": "microtonal",
+      "url": "https://mooncakes.io/api/v0/search?kw=microtonal&limit=100",
+      "status": 200,
+      "count": 0,
+      "packages": []
+    },
+    {
+      "phase": "pre-implementation",
+      "term": "music tuning",
+      "url": "https://mooncakes.io/api/v0/search?kw=music%20tuning&limit=100",
+      "status": 200,
+      "count": 1,
+      "packages": [
+        {
+          "name": "bobzhang/games",
+          "version": "0.9.33",
+          "repository": "https://github.com/bobzhang/games"
+        }
+      ]
+    },
+    {
+      "phase": "pre-implementation",
+      "term": "scala scale",
+      "url": "https://mooncakes.io/api/v0/search?kw=scala%20scale&limit=100",
+      "status": 200,
+      "count": 71,
+      "packages": [
+        {
+          "name": "emadurandal/rhodonite_core",
+          "version": "0.1.8",
+          "repository": "https://github.com/emadurandal/RhodoniteMBT"
+        },
+        {
+          "name": "FrozenLemonTee/LunarUnits",
+          "version": "0.1.9",
+          "repository": "https://github.com/FrozenLemonTee/LunarUnits"
+        },
+        {
+          "name": "Atman-Angle/moonatlas",
+          "version": "0.1.0",
+          "repository": "https://github.com/Atman-Angle/moonatlas"
+        },
+        {
+          "name": "tiye/quaternion",
+          "version": "0.1.3",
+          "repository": "https://github.com/WebGPU-Art/quaternion"
+        },
+        {
+          "name": "totto2727/geo",
+          "version": "0.1.3",
+          "repository": "https://github.com/totto2727-org/geo"
+        },
+        {
+          "name": "hyl-star/moonsic",
+          "version": "0.1.0",
+          "repository": "https://github.com/hyl-star/moonsic"
+        },
+        {
+          "name": "impart563/moonbit-neuroscore",
+          "version": "0.3.0",
+          "repository": "https://github.com/impart563/moonbit-neuroscore"
+        },
+        {
+          "name": "moonbitlang/x",
+          "version": "0.5.5",
+          "repository": "https://github.com/moonbitlang/x"
+        },
+        {
+          "name": "Milky2018/moon_swash",
+          "version": "0.1.13",
+          "repository": "https://github.com/moonbit-community/moon_swash"
+        },
+        {
+          "name": "gmlewis/fonts",
+          "version": "0.19.15",
+          "repository": "https://github.com/gmlewis/moonbit-fonts"
+        },
+        {
+          "name": "wzzc-dev/window",
+          "version": "0.5.4-0.1.7",
+          "repository": "https://github.com/wzzc-dev/window.git"
+        },
+        {
+          "name": "Milky2018/window",
+          "version": "0.6.1",
+          "repository": "https://github.com/moonbit-community/window.git"
+        },
+        {
+          "name": "Luna-Flow/linear-algebra",
+          "version": "0.4.7",
+          "repository": "https://github.com/Luna-Flow/linear-algebra"
+        },
+        {
+          "name": "mizchi/anim3d",
+          "version": "0.2.0",
+          "repository": "https://github.com/mizchi/kagura"
+        },
+        {
+          "name": "cg-zhou/moon_lottie",
+          "version": "0.3.0",
+          "repository": "https://github.com/cg-zhou/moon-lottie"
+        },
+        {
+          "name": "Luna-Flow/geometry3d",
+          "version": "0.5.1",
+          "repository": "https://github.com/Luna-Flow/geometry3d"
+        },
+        {
+          "name": "dgmxjj/moonplot",
+          "version": "0.5.0",
+          "repository": "https://github.com/dgmxjj/MoonPlot"
+        },
+        {
+          "name": "Lucius646/MoonSearch",
+          "version": "0.9.0",
+          "repository": "https://github.com/Lucius646/MoonSearch"
+        },
+        {
+          "name": "Milky2018/diago",
+          "version": "0.3.5",
+          "repository": "https://github.com/moonbit-community/diago"
+        },
+        {
+          "name": "Luna-Flow/luna-poly",
+          "version": "0.2.0",
+          "repository": "https://github.com/Luna-Flow/luna-poly"
+        },
+        {
+          "name": "lkdrt/palette_forge",
+          "version": "0.1.0",
+          "repository": "https://github.com/lkdrt/moonbit-palette-forge"
+        },
+        {
+          "name": "mizchi/syntree",
+          "version": "0.2.4",
+          "repository": "https://github.com/mizchi/syntree.mbt"
+        },
+        {
+          "name": "Milky2018/moon_elk",
+          "version": "0.2.4",
+          "repository": "https://github.com/moonbit-community/moon_elk.git"
+        },
+        {
+          "name": "mizchi/npm_typed",
+          "version": "0.1.15",
+          "repository": "https://github.com/mizchi/npm_typed.mbt"
+        },
+        {
+          "name": "moonbit-community/graphviz",
+          "version": "0.1.7",
+          "repository": "https://github.com/moonbit-community/graphviz"
+        },
+        {
+          "name": "moonbit-community/harfbuzz",
+          "version": "0.1.0",
+          "repository": ""
+        },
+        {
+          "name": "bobzhang/games",
+          "version": "0.9.33",
+          "repository": "https://github.com/bobzhang/games"
+        },
+        {
+          "name": "wzzc-dev/moui",
+          "version": "0.1.12",
+          "repository": "https://github.com/wzzc-dev/MoUI.git"
+        },
+        {
+          "name": "Nanaloveyuki/orby",
+          "version": "0.1.0-beta.6",
+          "repository": "https://github.com/Nanaloveyuki/orby"
+        },
+        {
+          "name": "hnlyxiaobing/crescent",
+          "version": "0.10.7",
+          "repository": "https://github.com/hnlyxiaobing/crescent"
+        },
+        {
+          "name": "bobzhang/loop_invariants_techniques",
+          "version": "0.17.1",
+          "repository": "https://github.com/moonbit-community/loop_invariants"
+        },
+        {
+          "name": "bobzhang/loop_invariants_math",
+          "version": "0.16.1",
+          "repository": "https://github.com/moonbit-community/loop_invariants"
+        },
+        {
+          "name": "KKKIIO/selene",
+          "version": "0.37.5",
+          "repository": "https://github.com/kkkiio/selene.git"
+        },
+        {
+          "name": "gmlewis/step",
+          "version": "0.1.18",
+          "repository": "https://github.com/gmlewis/moonbit-step"
+        },
+        {
+          "name": "mizchi/kagura_engine",
+          "version": "0.2.0",
+          "repository": "https://github.com/mizchi/kagura"
+        },
+        {
+          "name": "co63oc/moonbit_promptkit",
+          "version": "0.1.7",
+          "repository": "https://gitlink.org.cn/co63oc/moonbit_promptkit"
+        },
+        {
+          "name": "ZSeanYves/doc_parser",
+          "version": "0.1.1",
+          "repository": "https://github.com/ZSeanYves/markitdown.git"
+        },
+        {
+          "name": "CAIMEOX/Motiva",
+          "version": "0.3.0",
+          "repository": "https://github.com/caimeox/motiva"
+        },
+        {
+          "name": "hrwqe/cf_ocean",
+          "version": "0.1.4",
+          "repository": "https://github.com/hrwqe/moonbit-cf-ocean"
+        },
+        {
+          "name": "walkzzz/image",
+          "version": "0.4.11",
+          "repository": "https://github.com/toadium/stb-image"
+        },
+        {
+          "name": "Juwan-Hwang/moon-certified",
+          "version": "0.1.1",
+          "repository": "https://github.com/Juwan-Hwang/moon-certified"
+        },
+        {
+          "name": "sbqrre/moonbit-mcu-hal",
+          "version": "0.2.1",
+          "repository": "https://github.com/sbqrre/moonbit-mcu-hal"
+        },
+        {
+          "name": "wjyupl/measure",
+          "version": "0.1.2",
+          "repository": "https://github.com/wjyupl/moonbit-measure"
+        },
+        {
+          "name": "lfbnntr/moonbit-fish-stock",
+          "version": "0.1.2",
+          "repository": "https://github.com/lfbnntr/moonbit-fish-stock"
+        },
+        {
+          "name": "Lmy271828/moonim",
+          "version": "0.2.1",
+          "repository": "https://github.com/Lmy271828/moonim"
+        },
+        {
+          "name": "Hhsqoo/moon-frequency-sketch",
+          "version": "0.2.0",
+          "repository": "https://github.com/Hhsqoo/moon-frequency-sketch"
+        },
+        {
+          "name": "alicedhaha/moonrcinspect",
+          "version": "0.2.1",
+          "repository": "https://github.com/alicedhaha/RCInspect"
+        },
+        {
+          "name": "hwlxmm/dsp",
+          "version": "0.1.0",
+          "repository": "https://github.com/hwlxmm/moonbit-dsp"
+        },
+        {
+          "name": "hmyhmyhmyss/generative_patterns",
+          "version": "0.6.2",
+          "repository": "https://github.com/hmyhmyhmyss/moonbit-generative-patterns"
+        },
+        {
+          "name": "Zlj6566/moonbit-easings",
+          "version": "0.1.1",
+          "repository": "https://github.com/Zlj6566/moonbit-easings"
+        },
+        {
+          "name": "mizchi/simd",
+          "version": "0.6.1",
+          "repository": "https://github.com/mizchi/simd"
+        },
+        {
+          "name": "Luna-Flow/autodiff",
+          "version": "0.2.0",
+          "repository": "https://github.com/Luna-Flow/autodiff"
+        },
+        {
+          "name": "walkzzz/owl_mbt",
+          "version": "0.1.1",
+          "repository": "https://github.com/toadium/owl-mbt"
+        },
+        {
+          "name": "zhsyutt/moonbit-lbm",
+          "version": "0.2.1",
+          "repository": "https://github.com/zhsyutt/moonbit-lbm"
+        },
+        {
+          "name": "Lyhdsba/moonbit-chemreport",
+          "version": "0.3.1",
+          "repository": "https://github.com/Lyhdsba/moonbit-chemreport"
+        },
+        {
+          "name": "ssqzerz/moonbit-granular",
+          "version": "0.1.0",
+          "repository": "https://github.com/ssqzerz/moonbit-granular"
+        },
+        {
+          "name": "Luna-Flow/floating",
+          "version": "0.8.0",
+          "repository": "https://github.com/Luna-Flow/floating"
+        },
+        {
+          "name": "bobzhang/loop_invariants_dp",
+          "version": "0.14.1",
+          "repository": "https://github.com/moonbit-community/loop_invariants"
+        },
+        {
+          "name": "Milky2018/vcode",
+          "version": "0.15.0",
+          "repository": "https://github.com/Milky2018/wasmoon.git"
+        },
+        {
+          "name": "eisem/moon_graphql",
+          "version": "0.1.1",
+          "repository": "https://github.com/Eisem/moon_graphql"
+        },
+        {
+          "name": "python123-ops/moon-cv-geometry",
+          "version": "0.2.2",
+          "repository": "https://github.com/python123-ops/moon-cv-geometry"
+        },
+        {
+          "name": "zgfzgf899/moonbit-vector-trace-plan",
+          "version": "0.2.2",
+          "repository": "https://github.com/zgfzgf899/moonbit-vector-trace-plan"
+        },
+        {
+          "name": "ShunjunGu/moon-npy",
+          "version": "0.3.0",
+          "repository": "https://github.com/ShunjunGu/moon-npy"
+        },
+        {
+          "name": "starlittle/MoonEvidence",
+          "version": "0.5.1",
+          "repository": "https://github.com/wenlittle/MoonEvidence.git"
+        },
+        {
+          "name": "kokic/uml",
+          "version": "0.3.0",
+          "repository": "https://github.com/kokic/uml"
+        },
+        {
+          "name": "mizchi/experimental_crypto",
+          "version": "0.0.2",
+          "repository": "https://github.com/mizchi/experimental_crypto"
+        },
+        {
+          "name": "CAIMEOX/symbit",
+          "version": "0.5.10",
+          "repository": "https://github.com/CAIMEOX/symbit.git"
+        },
+        {
+          "name": "ZSeanYves/markitdown",
+          "version": "0.5.3",
+          "repository": "https://github.com/ZSeanYves/markitdown.git"
+        },
+        {
+          "name": "ihb2032/MoonFrame",
+          "version": "0.6.0",
+          "repository": "https://github.com/ihb2032/MoonFrame"
+        },
+        {
+          "name": "Zjyyer/moonbit-klt-tracker",
+          "version": "0.1.4",
+          "repository": "https://github.com/Zjyyer/moonbit-klt-tracker"
+        },
+        {
+          "name": "guiqi695/moon-prometheus-sdk",
+          "version": "0.1.0",
+          "repository": "https://github.com/guiqi695/moon-prometheus-sdk"
+        }
+      ]
+    },
+    {
+      "phase": "pre-implementation",
+      "term": "MoonPeg",
+      "url": "https://mooncakes.io/api/v0/search?kw=MoonPeg&limit=100",
+      "status": 200,
+      "count": 4,
+      "packages": [
+        {
+          "name": "jaredzhou/moonpg",
+          "version": "0.8.11",
+          "repository": "https://github.com/jaredzhou/moonpg"
+        },
+        {
+          "name": "doffice/moonpermit",
+          "version": "0.1.1",
+          "repository": "https://github.com/doffice/moonpermit"
+        },
+        {
+          "name": "okMambaOut/moonpetri",
+          "version": "0.1.0",
+          "repository": "https://github.com/okMambaOut/moonpetri"
+        },
+        {
+          "name": "jaredzhou/foxql",
+          "version": "0.1.4",
+          "repository": "https://github.com/jaredzhou/foxql"
+        }
+      ]
+    },
+    {
+      "phase": "pre-implementation",
+      "term": "peg solitaire",
+      "url": "https://mooncakes.io/api/v0/search?kw=peg%20solitaire&limit=100",
+      "status": 200,
+      "count": 0,
+      "packages": []
+    },
+    {
+      "phase": "pre-implementation",
+      "term": "solitaire",
+      "url": "https://mooncakes.io/api/v0/search?kw=solitaire&limit=100",
+      "status": 200,
+      "count": 1,
+      "packages": [
+        {
+          "name": "bobzhang/games",
+          "version": "0.9.33",
+          "repository": "https://github.com/bobzhang/games"
+        }
+      ]
+    },
+    {
+      "phase": "pre-implementation",
+      "term": "peg",
+      "url": "https://mooncakes.io/api/v0/search?kw=peg&limit=100",
+      "status": 200,
+      "count": 1,
+      "packages": [
+        {
+          "name": "PegasusPlusUS/hello",
+          "version": "0.1.0",
+          "repository": ""
+        }
+      ]
+    },
+    {
+      "phase": "pre-implementation",
+      "term": "peg solitaire",
+      "url": "https://mooncakes.io/api/v0/search?kw=peg%20solitaire&limit=100",
+      "status": 200,
+      "count": 0,
+      "packages": []
+    },
+    {
+      "phase": "pre-implementation",
+      "term": "跳珠",
+      "url": "https://mooncakes.io/api/v0/search?kw=%E8%B7%B3%E7%8F%A0&limit=100",
+      "status": 200,
+      "count": 0,
+      "packages": []
+    },
+    {
+      "phase": "pre-implementation",
+      "term": "孔明棋",
+      "url": "https://mooncakes.io/api/v0/search?kw=%E5%AD%94%E6%98%8E%E6%A3%8B&limit=100",
+      "status": 200,
+      "count": 0,
+      "packages": []
+    },
+    {
+      "phase": "pre-implementation",
+      "term": "独立钻石棋",
+      "url": "https://mooncakes.io/api/v0/search?kw=%E7%8B%AC%E7%AB%8B%E9%92%BB%E7%9F%B3%E6%A3%8B&limit=100",
+      "status": 200,
+      "count": 0,
+      "packages": []
+    },
+    {
+      "phase": "pre-implementation",
+      "term": "marble solitaire",
+      "url": "https://mooncakes.io/api/v0/search?kw=marble%20solitaire&limit=100",
+      "status": 200,
+      "count": 0,
+      "packages": []
+    },
+    {
+      "phase": "pre-implementation",
+      "term": "English solitaire",
+      "url": "https://mooncakes.io/api/v0/search?kw=English%20solitaire&limit=100",
+      "status": 200,
+      "count": 0,
+      "packages": []
+    },
+    {
+      "phase": "pre-implementation",
+      "term": "board solver",
+      "url": "https://mooncakes.io/api/v0/search?kw=board%20solver&limit=100",
+      "status": 200,
+      "count": 4,
+      "packages": [
+        {
+          "name": "Suquster/moonbit-pathfinding",
+          "version": "0.2.0",
+          "repository": "https://github.com/Suquster/moonbit-pathfinding"
+        },
+        {
+          "name": "Juwan-Hwang/moon-certified",
+          "version": "0.1.1",
+          "repository": "https://github.com/Juwan-Hwang/moon-certified"
+        },
+        {
+          "name": "bobzhang/games",
+          "version": "0.9.33",
+          "repository": "https://github.com/bobzhang/games"
+        },
+        {
+          "name": "bobzhang/loop_invariants_techniques",
+          "version": "0.17.1",
+          "repository": "https://github.com/moonbit-community/loop_invariants"
+        }
+      ]
+    },
+    {
+      "phase": "local-readiness recheck",
+      "term": "MoonPeg",
+      "url": "https://mooncakes.io/api/v0/search?kw=MoonPeg&limit=100",
+      "status": 200,
+      "count": 4,
+      "packages": [
+        {
+          "name": "jaredzhou/moonpg",
+          "version": "0.8.11",
+          "repository": "https://github.com/jaredzhou/moonpg"
+        },
+        {
+          "name": "doffice/moonpermit",
+          "version": "0.1.1",
+          "repository": "https://github.com/doffice/moonpermit"
+        },
+        {
+          "name": "okMambaOut/moonpetri",
+          "version": "0.1.0",
+          "repository": "https://github.com/okMambaOut/moonpetri"
+        },
+        {
+          "name": "jaredzhou/foxql",
+          "version": "0.1.4",
+          "repository": "https://github.com/jaredzhou/foxql"
+        }
+      ]
+    },
+    {
+      "phase": "local-readiness recheck",
+      "term": "peg solitaire",
+      "url": "https://mooncakes.io/api/v0/search?kw=peg+solitaire&limit=100",
+      "status": 200,
+      "count": 0,
+      "packages": []
+    },
+    {
+      "phase": "local-readiness recheck",
+      "term": "孔明棋",
+      "url": "https://mooncakes.io/api/v0/search?kw=%E5%AD%94%E6%98%8E%E6%A3%8B&limit=100",
+      "status": 200,
+      "count": 0,
+      "packages": []
+    },
+    {
+      "phase": "local-readiness recheck",
+      "term": "board solver",
+      "url": "https://mooncakes.io/api/v0/search?kw=board+solver&limit=100",
+      "status": 200,
+      "count": 4,
+      "packages": [
+        {
+          "name": "Suquster/moonbit-pathfinding",
+          "version": "0.2.0",
+          "repository": "https://github.com/Suquster/moonbit-pathfinding"
+        },
+        {
+          "name": "Juwan-Hwang/moon-certified",
+          "version": "0.1.1",
+          "repository": "https://github.com/Juwan-Hwang/moon-certified"
+        },
+        {
+          "name": "bobzhang/games",
+          "version": "0.9.33",
+          "repository": "https://github.com/bobzhang/games"
+        },
+        {
+          "name": "bobzhang/loop_invariants_techniques",
+          "version": "0.17.1",
+          "repository": "https://github.com/moonbit-community/loop_invariants"
+        }
+      ]
+    }
+  ],
+  "repositories": [
+    {
+      "name": "bobzhang/pdflite",
+      "url": "https://github.com/bobzhang/pdflite",
+      "pushed_at": "2026-09-09T14:44:34Z",
+      "archived": false,
+      "license": "Apache-2.0"
+    },
+    {
+      "name": "moonbitlang/office.mbt",
+      "url": "https://github.com/moonbitlang/office.mbt",
+      "pushed_at": "2026-09-11T09:13:27Z",
+      "archived": false,
+      "license": "Apache-2.0"
+    },
+    {
+      "name": "hyl-star/moonsic",
+      "url": "https://github.com/hyl-star/moonsic",
+      "pushed_at": "2026-07-12T13:22:26Z",
+      "archived": false,
+      "license": "Apache-2.0"
+    },
+    {
+      "name": "bobzhang/games",
+      "url": "https://github.com/bobzhang/games",
+      "pushed_at": "2026-09-09T14:42:11Z",
+      "archived": false,
+      "license": "not identified by GitHub metadata"
+    },
+    {
+      "name": "Suquster/moonbit-pathfinding",
+      "url": "https://github.com/Suquster/moonbit-pathfinding",
+      "pushed_at": "2026-07-14T14:10:25Z",
+      "archived": false,
+      "license": "Apache-2.0"
+    }
+  ]
+}

@@ -30,6 +30,7 @@ try:
         run('moon','test','--target',target,'--deny-warn')
         run('moon','run','examples/solve','--target',target)
         if target == 'js':
+            run(sys.executable,'scripts/consumer-test.py')
             for script in ['cli-test.cjs','examples.cjs','oracle.cjs']:
                 run('node','scripts/'+script)
 except (RuntimeError, OSError) as e:
