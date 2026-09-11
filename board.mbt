@@ -3,6 +3,7 @@
 pub suberror PegError {
   InvalidBoard(String)
   InvalidPosition
+  InvalidMove(Int)
 } derive(Debug, Eq)
 
 ///|
@@ -19,6 +20,7 @@ pub struct Board {
   height : Int
   cells : Array[Cell]
   mask : UInt64
+  jumps : Array[Jump]
 } derive(Debug)
 
 ///|
@@ -120,7 +122,16 @@ pub fn parse_board(text : String) -> (Board, Position) raise PegError {
   if cells.length() == 0 {
     raise InvalidBoard("no holes")
   }
-  ({ width: w, height: rows.length(), cells, mask }, { bits, })
+  (
+    {
+      width: w,
+      height: rows.length(),
+      cells,
+      mask,
+      jumps: compile_jumps(cells),
+    },
+    { bits, },
+  )
 }
 
 ///|
